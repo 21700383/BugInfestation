@@ -59,6 +59,11 @@ public class BugInfestation {// declare BugInfestation class
 						+ "Better call the Bug Busters.Inc"); // give message about what will happen to the number and volume of roaches when they are done duplicating
 	}
 	
+	/**
+	 * main method. Gets input from user for initial number of roaches and house volume, 
+	 * then calls set() and roachfill() methods to run them.
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int startPopulation; // declare startpopulation
